@@ -4,9 +4,7 @@ import Goal from "./components/Goal";
 import styled from "styled-components";
 import { GlobalStyle } from "./styles/Global.style";
 
-const base = new Airtable({ apiKey: "keypJs9GSR31R4gLd" }).base(
-  "appgFYiTKswDu2JNq"
-);
+const base = new Airtable({ apiKey: YOUR_API_KEY" }).base("YOUR_BASE_ID");
 
 const StyledH1 = styled.h1`
   text-align: center;
